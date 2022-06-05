@@ -5,7 +5,7 @@ export function scroll(page) {
       .firstElementChild.getBoundingClientRect();
 
     window.scrollBy({
-      top: cardHeight * 2,
+      top: cardHeight * 2 - 75,
       behavior: 'smooth',
     });
   }
