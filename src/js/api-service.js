@@ -13,7 +13,7 @@ export default class ApiService{
             const data = await response?.data
             
             this.incrementPage()
-            
+        
             return data
         } catch (error) {
             console.log(error);

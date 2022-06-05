@@ -21,6 +21,6 @@ export default class BtnService{
     disable() {
         this.loadMoreBtn.disable = true;
         this.loadMoreBtn.textContent = 'Loading...'
-        // this.loadMoreSpiner.classList.remove(this.classList)
+        this.loadMoreSpiner.classList.remove(this.classList)
     }
 }
